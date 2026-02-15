@@ -2,9 +2,13 @@
 
 {% block title %}Accueil{% endblock %}
 {% block body %}
+    <marquee class="pub-premium" scrollamount="8">
+        Passez en mode <span>PREMIUM</span> pour débloquer tous les avatanges exclusifs ! <i class="fa-solid fa-crown" style="color: rgba(12, 28, 44, 1.00);"></i>
+        Profitez de 4 semaines offertes ! 
+    </marquee>
     <div class="nav-bar">
     <div class="logo-group">
-        <a href="home/home_page1.html.twig">
+        <a href="{{ path('app_home_page') }}">
             <img src="../../images/Logo.png" class="logo">
         </a>
 
@@ -33,7 +37,7 @@
                 <option value="cny">Cn (元)</option>
             </select>
             <a href="#" title="Utilisateur"><i class="fa-solid fa-user" style="color: rgba(198, 167, 94, 1.00);"></i></a>
-            <a href="#" class="">Se connecter</a>
+            <a href="#" >Se connecter</a>
             <a href="#" title="Panier">🛒</a>
         </div>
     </div>
@@ -45,7 +49,7 @@
         <div class="st-text">
             <h1>LevelUp</h1>
             <p>Trouve le stage de tes rêves en un swipe !</p>
-            <a href="../swip.html.twig" class="btn">Commencer à swiper</a>
+            <a href="{{ path('app_swip') }}" class="btn">Commencer à swiper</a>
         </div>
     </section>
 
