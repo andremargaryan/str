@@ -19,7 +19,7 @@ final class HomePageController extends AbstractController
     #[Route('/swip', name: 'app_swip')]
     public function homeSwip(): Response
     {
-        return $this->render('swip.html.twig');
+        return $this->render('home/swip1.html.twig');
     }
 
 }
