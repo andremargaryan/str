@@ -5,7 +5,7 @@ LevelUp est une application web développée avec Symfony permettant aux utilisa
 
 
 # 1 Membres du groupe
-BLANCHARD,  Laura,  
+BLANCHARD,  Laura, blanchardlaura5@gmail.com
 MENTONNEX,  Misha,  
 MARGARYAN,  André,  
 YEE KON PINE,  Steve,  ysteve322@gmail.com
