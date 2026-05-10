@@ -64,3 +64,11 @@ router:
 # installer des trucs dans le composer
 composer-require:
 	docker exec $(DOCKER_PHP_CONTAINER) composer require $(package)
+
+# creer les fixtures
+composer-fixtures:
+	docker exec $(DOCKER_PHP_CONTAINER) composer require --dev doctrine/doctrine-fixtures-bundle
+
+#mettre en place les données dans la base de données
+composer-load-fixtures:
+	docker exec $(DOCKER_PHP_CONTAINER) php bin/console doctrine:fixtures:load --append

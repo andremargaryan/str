@@ -52,7 +52,7 @@ Les données de test sont fournies via les Fixtures Doctrine.
 Elles sont chargées avec la commande suivante (déjà incluse dans les étapes d'installation) :
 
 ```bash
-docker exec -it str_php php bin/console doctrine:fixtures:load --no-interaction
+make composer-load-fixtures
 ```
 
 
