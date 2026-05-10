@@ -5,9 +5,9 @@ LevelUp est une application web développée avec Symfony permettant aux utilisa
 
 
 # 1 Membres du groupe
-BLANCHARD,  Laura, blanchardlaura5@gmail.com
-MENTONNEX,  Misha,  
-MARGARYAN,  André,  
+BLANCHARD,  Laura,  blanchardlaura5@gmail.com
+MENTHONNEX,  Misha,  misha.csw@gmail.com
+MARGARYAN,  André,  andre.margaryan2005@gmail.com
 YEE KON PINE,  Steve,  ysteve322@gmail.com
 
 
@@ -52,7 +52,7 @@ Les données de test sont fournies via les Fixtures Doctrine.
 Elles sont chargées avec la commande suivante (déjà incluse dans les étapes d'installation) :
 
 ```bash
-make composer-load-fixtures
+docker exec -it str_php php bin/console doctrine:fixtures:load --no-interaction
 ```
 
 
